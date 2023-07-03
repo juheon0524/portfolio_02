@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+
+
+        /*768이상*/
+        @media (min-width:768px){
+        /*main1*/
+        .main1_a {display:flex; flex-flow:column wrap; align-items:center; justify-content:center; height:700px;}
+        .main1_a > h3 {color:#fff; border:1px solid #fff; font-size:15px; letter-spacing:5px; padding:5px 10px; margin:10px 0px;}
+        .main1_a > h1 {color:#fff; font-size:60px; letter-spacing:5px; margin:10px 0px;}
+        .main1_a > h5 {color:#e52b34; font-size:15px; letter-spacing:5px; margin:10px 0px;}
+        .main1 {background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/bg_2.jpg.webp); width:100%; height:1000px; background-size:cover; background-position:center; margin:0 auto;}
+        
+        /*main2*/
+        .main2_1{width:100%; height:auto; margin:0 auto; background-color:#fff;}
+        
+        .main2_container {width:100%; margin:0 auto; display:flex; height:auto;}
+        .main2_a {background-color:#e52b34; width:40%; padding:0 0 5% 0px;}
+        .main2_a  h3 {color:#fff; text-align:center; padding:50px 0 0 0px; font-size:25px;}
+        .form_group {width:70%;}
+        ::placeholder {color:#fff;}
+        input {padding:10px; background-color:#e52b34; border:1px solid #fff; width:100%; margin: 20px 50px auto; padding:10px 5px; font-size:15px;} 
+        .btn1 {background-color:#fff; width:100%; padding:5% 0px; color:#000;}
+        .btn1:hover {color:#e52b34; transition:0.3s;}
+        .main2_c {width:60%; height:auto; background-image:url(../img/about.jpg.webp); background-size:cover; background-position:center; margin:0 auto;}
+        .main2_b {width:80%; height:auto; margin:0 0 0 50px;}
+        .main2_b h1 {margin:100px 0 20px 0px; font-size:30px; line-height:50px;}
+        .main2_b p {line-height:30px; font-size:15px; color:gray;}
+
+        /*slider*/
+        .slider {background:url(../img/bg_3.jpg.webp)fixed; background-size:cover; width:100%; height:400px;}
+        .slider h5 {color:#fff; text-align:center; font-size:20px; padding:150px 0 0 0px; letter-spacing:5px;}
+        .slider h1 {color:#fff; text-align:center; font-size:40px; padding:10px 0 0 0px;}
+
+
+        /*menu*/
+        .menu {width:100%; height:auto; display:flex; flex-wrap:wrap; justify-content:space-evenly; margin:0 auto; padding:0 0 50px 0px;}
+        h2 {text-align:center; font-size: 40px; padding:100px 0 50px 0px;}
+        .menu_wrap {width:45%; margin:2%; height:auto; outline:1px dashed #ccc; background-color:#fcfcfc;}
+        .menu_wrap:hover {box-shadow:4px 4px 4px #00000066;}
+        .menu_wrap h3 {text-align:center; padding:50px 0 0 0px; font-size:25px;}
+        .menu_image {width:100px; height:100px;}
+        .image {width:100%; height:100%;  border-radius:50px;}
+        .menu_a {display:flex; margin:50px 25px;}
+        .menu_text {margin:0 20%; line-height:30px;}
+        .menu_text p {color:gray;}
+        .menu_text_a {display:flex; justify-content:space-between;}
+        .menu_text_b > a {margin:0 0 10px 0px; font-weight:bold; text-decoration:none; color:#000;}
+        .menu_text_c {color:#e52b34; font-weight:bold; font-size:20px;}
+
+        /*slider1*/
+        .slider1 {background:url(../img/bg_5.jpg.webp)fixed; background-size:cover; width:100%; height:400px;}
+        .slider1 h3 {color:#fff; text-align:center; font-size:50px; padding:150px 0 0 0px;}
+        .slider1 p {color:#fff; text-align:center; padding:70px 0 0 0px; font-size:15px; word-spacing:5px;}
+
+        /*chef*/
+        .chef {width:90%; height:auto; display:flex; flex-flow:row wrap; justify-content:space-between; margin:0 auto; padding:0 0 150px 0px;}
+        .chef_a {width:45%; height:550px; line-height:30px; background-color:#fff; margin:2%;}
+        .chef_a > img {width:100%; height:60%;}
+        .chef_a h5 {font-size:20px; padding:20px 10px;}
+        .chef_a span {font-size:15px; color:gray; padding:0 10px;}
+        .chef_a p {font-size:15px; padding:0 10px;}
+
+        /*ingredients*/
+        .ingredients1 {width:100%; height:auto; margin:0 auto; background-color:#fff;}
+        .ingredients {width:100%; height:auto; display:flex; margin:0 auto;}
+        .ingredients_a {width:45%; display:flex; justify-content:space-between;}
+        .ingredients_a > img {width:50%; height:auto; padding:0 2%;}
+        .ingredients_b {width:50%; padding:50px 0 0 40px;}
+        .ingredients_b h3 {font-size:40px; padding:0 0 30px 0px;}
+        .ingredients_b p {line-height:30px; color:gray; padding: 0 0 30px 0px;}
+        .ingredients_b span {color:#fff; border:1px solid #e52b34; background-color:#e52b34; padding:5px 15px; line-height:50px;}
+        .ingredients_b span:hover {color:#e52b34; background-color:#fff; transition:0.3s; cursor:pointer;} 
+
+        /*blog*/
+        .blog {width:100%; height:auto;}
+        .blog_a {width:100%; height:auto; display:flex; justify-content:space-evenly; margin:0 auto;  padding:0 0 50px 0px;}
+        .blog_b {width:30%; height:auto; background-color:#fff;}
+        .blog_b > img {width:100%; height:250px;}
+        .blog_b p {font-size:12px; padding:10px;}
+        .blog_b h3 {padding:10px 10px 20px 10px; font-size:20px;}
+        .blog_b span {color:#fff; border:1px solid #e52b34; background-color:#e52b34; padding:5px 10px; margin:10px; line-height:50px;}
+        .blog_b span:hover {color:#e52b34; background-color:#fff; transition:0.3s; cursor:pointer;}
+
+        /*end*/
+        .end {width:100%; height:auto; background-color:#e52b34; padding:20px 0px;}
+        .end_a {width:100%; height:auto; margin:0 auto; text-align:center;}
+        .end_a h3 {color:#fff; font-size:30px; padding:50px 0 20px 0px;}
+        .end_a p {color:#fff; border:1px solid #fff; padding:10px; width:150px; margin:0 auto;}
+        .end_a p:hover {color:#e52b34; background-color:#fff; transition:0.3s; cursor:pointer;}
+
+}
